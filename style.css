@@ -8,7 +8,7 @@
   padding: 0;
 }
 
-button {
+.playbutton {
   opacity: 1;
   -webkit-animation-name: blink;
           animation-name: blink;
@@ -2962,12 +2962,16 @@ button {
   -webkit-animation-delay: 50s;
           animation-delay: 50s;
 }
+.poem .estrofe:nth-of-type(6) {
+  -webkit-animation-delay: 60s;
+          animation-delay: 60s;
+}
 .poem .verse {
   font-size: 1rem;
   line-height: 1.5rem;
 }
 
-button {
+.playbutton {
   font-family: "VT323", monospace;
   position: absolute;
   top: 5%;
